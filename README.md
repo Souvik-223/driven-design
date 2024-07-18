@@ -1,33 +1,61 @@
-Built with React Native for seamless user experiences, Animatable for captivating animations, and integrated with the dependable backend systems of Appwrite, this app showcases impressive design and functionality, enabling seamless sharing of AI videos within the community.
+Driven Design - A collaborative, real-time whiteboard. Packed with features such as real-time database, whiteboard from scratch with ability to add shapes like Rectangles and Ellipses, Sticky notes and Pencil drawing.
 
 ## ⚙️ Tech Stack
-- React Native
-- Expo
-- Nativewind
-- Animatable
-- Appwrite
+- Next JS
+- React
+- Typescript
+- Convex
+- LiveBlocks
+- Clerk
+- Canvas
+- Tailwind css
+- shad-cn
+- Zustand
 
 ## 🎯 Features
--  Onboarding Screen: Engaging graphics and clear instructions welcome users to the app.
-- Robust Authentication & Authorization System: Secure email login safeguards user accounts.
-- Dynamic Home Screen with Animated Flat List: Smoothly animated flat list showcases the latest videos for seamless browsing.
-- Pull-to-Refresh Functionality: Users can refresh content with a simple pull gesture for up-to-date information.
-- Full-Text Search Capability: Efficiently search through videos with real-time suggestions and instant results.
-- Tab Navigation: Navigate between sections like Home, Search, and Profile with ease using tab navigation.
-- Post Creation Screen for Uploading Media: Upload video and image posts directly from the app with integrated media selection.
-- Profile Screen with Detailed Insights: View account details and activity, including uploaded videos and follower count, for a personalized experience.
-- Responsiveness: Smooth performance and adaptability across various devices and screen sizes for a consistent user experience.
-- Animations: Dynamic animations using the Animatable library to enhance user interaction and engagement throughout the app's UI.
-- code architecture and reusability
+- 🛠️ Whiteboard from scratch
+- 🧰 Toolbar with Text, Shapes, Sticky Notes & Pencil
+- 🪄 Layering functionality
+- 🎨 Coloring system
+- ↩️ Undo & Redo functionality
+- ⌨️ Keyboard shortcuts
+- 🤝 Real-time collaboration
+- 💾 Real-time database
+- 🔐 Auth, organisations and invites
+- ⭐️ Favoriting functionality
+- 🌐 Next.js 14 framework
+- 💅 TailwindCSS & ShadcnUI styling
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
+1. **Clone the repository:**
 
-**Prerequisites**
+```bash
+git clone https://github.com/Souvik-223/driven-design.git
+cd your-repo-name
+```
 
+2. **Install the required dependencies:**
 
-### TO run
+```bash
+npm install
+```
 
-npx convex dev
+3. **Configure environmental variables:**
+   Create a `.env.local` file in the project root and set the necessary environment variables.
+
+```
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+LIVEBLOCKS_SECRET_KEY=
+```
+
+4. **Run the development server:**
+
+```bash
 npm run dev
+npx convex dev
+```
