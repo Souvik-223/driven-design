@@ -59,3 +59,14 @@ LIVEBLOCKS_SECRET_KEY=
 npm run dev
 npx convex dev
 ```
+
+### 🧪 Demo Account (For Testing)
+
+You can explore the app using the demo credentials below:
+
+```bash
+Email: tester@test.com
+Password: Tester
+```
+
+> Use this account to test whiteboard collaboration, shapes, sticky notes, and other features without creating a new account.
