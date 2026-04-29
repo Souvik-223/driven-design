@@ -4,8 +4,8 @@ Driven Design - A collaborative, real-time whiteboard. Packed with features such
 - Next JS
 - React
 - Typescript
-- Convex
-- LiveBlocks
+- Convex {Real time Database}
+- LiveBlocks {Real time cursor tracking on canvas}
 - Clerk
 - Canvas
 - Tailwind css
